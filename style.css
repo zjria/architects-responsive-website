@@ -22,11 +22,6 @@ body {
     border: none;
 }
 
-.btn-secondary {
-    background: #FF900E;
-    border-radius: 8px;
-}
-
 /* Header section style */
 .header-section {
     background: rgba(255, 144, 14, 0.1);
@@ -157,6 +152,39 @@ body {
 .features-content-photo {
     display: flex;
     justify-content: space-between;
+}
+
+.features-content-head .line {
+    content: '';
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+    position: absolute;
+}
+
+.features-content-head h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-left: 10px;
+}
+
+.features-content-head p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+
+.features-photo {
+    width: 100%;
+}
+
+.features-content-photo img {
+    width: 100%;
 }
 
 
