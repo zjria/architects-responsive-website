@@ -154,6 +154,18 @@ body {
     justify-content: space-between;
 }
 
+.features-content {
+    width: 50%;
+}
+
+.features-photo {
+    width: 50%;
+}
+
+.features-content-head {
+    margin-bottom: 30px;
+}
+
 .features-content-head .line {
     content: '';
     width: 5px;
@@ -168,6 +180,7 @@ body {
     line-height: 53px;
     color: #131313;
     margin-left: 10px;
+    margin-bottom: 24px;
 }
 
 .features-content-head p {
@@ -177,24 +190,9 @@ body {
     color: #727272;
 }
 
-
-
-.features-photo {
-    width: 100%;
+.features-photo img {
+    width: 90%;
 }
-
-.features-content-photo img {
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
 
 
 
