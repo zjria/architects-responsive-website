@@ -197,7 +197,31 @@ body {
         font-weight: 400;
         font-size: 40px;
     }
+
+    .main-photo-content {
+        flex-direction: column;
+    }
+
+    .main-photo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-photo {
+        margin-right: 0;
+    }
+
+    .main-photo img {
+        width: 340px;
+        height: 300px;
+    }
+
+    .main-content {
+        text-align: center;
+    }
 }
+
+
+
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .container {
