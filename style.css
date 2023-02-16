@@ -240,6 +240,20 @@ body {
     .banner-content h1 {
         font-size: 50px;
     }
+
+    .main-photo-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-photo {
+        margin-right: 0px;
+    }
+
+    .main-photo img {
+        width: 280px;
+        height: 280px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -249,5 +263,9 @@ body {
 
     .banner-section {
         padding-top: 20px;
+    }
+
+    .main-photo {
+        margin-right: 22px;
     }
 }
